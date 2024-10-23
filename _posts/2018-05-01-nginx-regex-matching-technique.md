@@ -5,7 +5,7 @@ subtitle: NGINX Regex Matching
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/nginx.png
 share-img: /assets/img/path.jpg
-tags: [ruby]
+tags: [nginx regex matching]
 author: kieetnvt
 ---
 
@@ -156,5 +156,5 @@ Using Echo https://github.com/openresty/echo-nginx-module
 
 REF: https://serverfault.com/questions/404626/how-to-output-variable-in-nginx-log-for-debugging
 
-
+Source: [Kiet's Gist](https://gist.github.com/kieetnvt/5d53f070ecda9762638319680ebe38a5)
 
