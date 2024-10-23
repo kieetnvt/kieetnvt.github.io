@@ -5,7 +5,7 @@ subtitle: Rails Associations Benefit
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/ruby.jpg
 share-img: /assets/img/path.jpg
-tags: [nginx webserver]
+tags: [rails associations]
 author: kieetnvt
 ---
 

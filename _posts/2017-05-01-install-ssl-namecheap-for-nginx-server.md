@@ -5,7 +5,7 @@ subtitle: Install SSL Namecheap for NGINX server
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/nginx.png
 share-img: /assets/img/path.jpg
-tags: [nginx webserver]
+tags: [nginx webserver ssl]
 author: kieetnvt
 ---
 

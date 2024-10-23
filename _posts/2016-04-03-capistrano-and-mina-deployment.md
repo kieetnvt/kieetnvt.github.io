@@ -5,7 +5,7 @@ subtitle: "Capistrano vs Mina"
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/ruby.jpg
 share-img: /assets/img/path.jpg
-tags: [ruby, rails]
+tags: [capistrano mina]
 author: kieetnvt
 ---
 

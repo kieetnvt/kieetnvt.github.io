@@ -5,7 +5,7 @@ subtitle: "Split small logs file by logrotate on Linux system"
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/linux.jpeg
 share-img: /assets/img/path.jpg
-tags: [nginx webserver]
+tags: [linux]
 author: kieetnvt
 ---
 

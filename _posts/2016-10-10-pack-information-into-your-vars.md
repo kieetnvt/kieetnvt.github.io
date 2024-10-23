@@ -5,7 +5,7 @@ subtitle: "The art of readable code: Pack information into your variables or fun
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/readablecode.jpg
 share-img: /assets/img/path.jpg
-tags: [nginx webserver]
+tags: [readable code]
 author: kieetnvt
 ---
 
