@@ -5,7 +5,7 @@ subtitle: A Beginner’s Guide
 cover-img: /assets/img/docker-bg.png
 thumbnail-img: /assets/img/docker.png
 share-img: /assets/img/docker.png
-tags: [docker networking]
+tags: [docker images]
 author:
 ---
 
