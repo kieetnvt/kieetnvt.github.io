@@ -23,7 +23,7 @@ navbar-links:
   About Me: "aboutme"
   Author's Gist: "https://gist.github.com/kieetnvt"
   Resources:
-    - Learn Markdown: "https://www.markdowntutorial.com/"
+    - Learn Markdown: "https://www.markdownguide.org/basic-syntax/"
     - Awesome Ruby: "https://awesome-ruby.com/"
 
 ################
