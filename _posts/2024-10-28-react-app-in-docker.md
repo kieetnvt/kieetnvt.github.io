@@ -2,7 +2,7 @@
 layout: post
 title: "React App In Docker"
 subtitle:
-cover-img: /assets/img/path.jpg
+cover-img: /assets/img/docker-bg.png
 thumbnail-img: /assets/img/react-app-docker.png
 share-img: /assets/img/react-app-docker.png
 tags: [react app docker]
