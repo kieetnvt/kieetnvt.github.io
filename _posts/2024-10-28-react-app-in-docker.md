@@ -5,7 +5,7 @@ subtitle:
 cover-img: /assets/img/docker-bg.png
 thumbnail-img: /assets/img/react-app-docker.png
 share-img: /assets/img/react-app-docker.png
-tags: [react app docker]
+tags: [react docker]
 author:
 ---
 

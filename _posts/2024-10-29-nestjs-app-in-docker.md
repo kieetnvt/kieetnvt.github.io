@@ -5,7 +5,7 @@ subtitle: ""
 cover-img: /assets/img/docker-bg.png
 thumbnail-img: /assets/img/nestjs-docker.png
 share-img: /assets/img/nestjs-docker.png
-tags: [nestjs app docker]
+tags: [nestjs docker]
 author:
 ---
 
