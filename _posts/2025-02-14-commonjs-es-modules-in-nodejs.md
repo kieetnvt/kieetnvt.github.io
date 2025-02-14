@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "How to Run Environment Variables in a Docker Container"
+title: "CommonJS vs ES modules in NodeJS"
 subtitle: ""
-cover-img: /assets/img/docker-env.png
-thumbnail-img: /assets/img/docker-env.png
-share-img: /assets/img/docker-env.png
-tags: [docker env]
+cover-img: /assets/img/Comparison-table-for-CommonJS-and-ES-Modules.jpg
+thumbnail-img: /assets/img/cjsmjs.png
+share-img: /assets/img/cjsmjs.png
+tags: [commonjs esmodule nodejs]
 author:
 ---
 
