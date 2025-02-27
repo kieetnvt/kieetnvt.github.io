@@ -2,7 +2,7 @@
 layout: post
 title: "CommonJS vs ES modules in NodeJS"
 subtitle: ""
-cover-img: /assets/img/Comparison-table-for-CommonJS-and-ES-Modules.jpg
+cover-img: /assets/img/JavaScriptBanner.png
 thumbnail-img: /assets/img/cjsmjs.png
 share-img: /assets/img/cjsmjs.png
 tags: [commonjs esmodule nodejs]
