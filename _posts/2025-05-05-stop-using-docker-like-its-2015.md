@@ -65,7 +65,7 @@ CMD ["node", "dist/index.js"]
 You're still typing docker build . every time?
 Set `DOCKER_BUILDKIT=1`, start using layer caching, and make your life easier. Add `--mount=type=cache` for package managers and build systems. It's not just faster - it's smarter.
 
-# What Modern Docker Looks Like
+# 🧐 What Modern Docker Looks Like
 
 Here's how you should be using Docker in 2025:
 
