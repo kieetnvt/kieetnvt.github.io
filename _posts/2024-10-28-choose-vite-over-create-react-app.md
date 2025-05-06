@@ -6,7 +6,7 @@ cover-img: /assets/img/vite.png
 thumbnail-img: /assets/img/vite.png
 share-img: /assets/img/vite.png
 tags: [vite react]
-author:
+author: kieetnvt
 ---
 
 ### Overview of CRA

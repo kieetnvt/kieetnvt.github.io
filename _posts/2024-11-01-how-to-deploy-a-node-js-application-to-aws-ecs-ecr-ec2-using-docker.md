@@ -6,7 +6,7 @@ cover-img: /assets/img/docker-real-ship.jpeg
 thumbnail-img: /assets/img/docker.png
 share-img: /assets/img/docker-real-ship.jpeg
 tags: [nodejs docker ecs ecr ec2]
-author:
+author: kieetnvt
 ---
 
 In this tutorial, It shows you how to dockerize a Node.js application and deploy it to Amazon Web Service (AWS) using Amazon ECR (Elastic Container Registry) and ECS (Elastic container service).

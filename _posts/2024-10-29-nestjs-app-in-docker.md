@@ -6,7 +6,7 @@ cover-img: /assets/img/docker-bg.png
 thumbnail-img: /assets/img/nestjs-docker.png
 share-img: /assets/img/nestjs-docker.png
 tags: [nestjs docker]
-author:
+author: kieetnvt
 ---
 
 NestJS is a backend framework which aims to simplify server-side development by providing a consistent and abstract interface on top of the usual tools such as express.

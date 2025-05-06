@@ -6,7 +6,7 @@ cover-img: /assets/img/docker-bg.png
 thumbnail-img: /assets/img/docker.png
 share-img: /assets/img/docker.png
 tags: [docker images]
-author:
+author: kieetnvt
 ---
 
 Docker has become an essential tool for developers, simplifying the process of building, testing, and deploying applications.

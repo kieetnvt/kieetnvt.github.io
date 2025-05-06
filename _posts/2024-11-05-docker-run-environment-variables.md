@@ -6,7 +6,7 @@ cover-img: /assets/img/docker-env.png
 thumbnail-img: /assets/img/docker-env.png
 share-img: /assets/img/docker-env.png
 tags: [docker env]
-author:
+author: kieetnvt
 ---
 
 # How to Run Environment Variables in a Docker Container

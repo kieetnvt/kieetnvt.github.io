@@ -6,7 +6,7 @@ cover-img: /assets/img/JavaScriptBanner.png
 thumbnail-img: /assets/img/cjsmjs.png
 share-img: /assets/img/cjsmjs.png
 tags: [commonjs esmodule nodejs]
-author:
+author: kieetnvt
 ---
 
 # The evolution of JavaScript modules

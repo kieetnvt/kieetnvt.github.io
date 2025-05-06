@@ -6,7 +6,7 @@ cover-img: /assets/img/docker-bg.png
 thumbnail-img: /assets/img/react-app-docker.png
 share-img: /assets/img/react-app-docker.png
 tags: [react docker]
-author:
+author: kieetnvt
 ---
 
 Using React to create a basic static site. Using Docker to containerize the application, making it easy to run anywhere.

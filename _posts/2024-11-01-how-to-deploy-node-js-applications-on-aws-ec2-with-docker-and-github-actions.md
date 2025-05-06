@@ -6,7 +6,7 @@ cover-img: /assets/img/docker-real-ship.jpeg
 thumbnail-img: /assets/img/docker.png
 share-img: /assets/img/docker-real-ship.jpeg
 tags: [nodejs docker ec2 github actions]
-author:
+author: kieetnvt
 ---
 
 This guide demonstrates how to seamlessly deploy your Node.js application onto an Amazon Web Services (AWS) EC2 instance using the power of Docker and GitHub Actions, ensuring streamlined and reliable deployment workflows.

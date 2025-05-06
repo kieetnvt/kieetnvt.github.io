@@ -6,7 +6,7 @@ cover-img: /assets/img/docker-bg.png
 thumbnail-img: /assets/img/docker.png
 share-img: /assets/img/docker.png
 tags: [docker container practice]
-author:
+author: kieetnvt
 ---
 
 In the era of microservices and cloud computing, Docker has become an indispensable tool for application development and deployment.

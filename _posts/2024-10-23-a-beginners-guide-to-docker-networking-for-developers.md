@@ -6,7 +6,7 @@ cover-img: /assets/img/docker-bg.png
 thumbnail-img: /assets/img/docker.png
 share-img: /assets/img/docker.png
 tags: [docker networking]
-author:
+author: kieetnvt
 ---
 
 Docker has revolutionized how we build, ship, and run applications by containerizing them.

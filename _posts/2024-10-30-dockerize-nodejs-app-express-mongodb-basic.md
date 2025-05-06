@@ -6,7 +6,7 @@ cover-img: /assets/img/docker-bg.png
 thumbnail-img: /assets/img/docker-expressjs.jpg
 share-img: /assets/img/docker-expressjs.jpg
 tags: [expressjs docker]
-author:
+author: kieetnvt
 ---
 
 In this guide, we’ll walk you through the process of setting up a development environment for your application, containerizing it with Docker, using Docker Compose

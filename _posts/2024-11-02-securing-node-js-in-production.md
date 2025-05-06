@@ -6,7 +6,7 @@ cover-img: /assets/img/codebg.webp
 thumbnail-img: /assets/img/codebg.webp
 share-img: /assets/img/codebg.webp
 tags: [nodejs security]
-author:
+author: kieetnvt
 ---
 
 # Securing Node.js in Production
