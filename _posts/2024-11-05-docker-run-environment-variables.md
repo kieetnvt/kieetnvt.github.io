@@ -46,11 +46,11 @@ Here are some of the types of Docker environment variables:
 
 - **Default environment variables**: These are predefined variables like HOSTNAME, HOME, and PATH, which give information about the container or the Docker host environment. The list of default variables can vary depending on the base image and Docker version.
 
-- **ARG variables**: Defined in the Dockerfile, ARG variables are passed at build time and are not available in the final image or runtime. They can be used to set a default value or modify the build process, but once the image is built, they are no longer accessible inside the running container.
+- **ARG variables**: Defined in the Dockerfile, **ARG variables are passed at build time and are not available in the final image or runtime**. They can be used to set a default value or modify the build process, but once the image is built, they are no longer accessible inside the running container.
 
-- **ENV variables**: These environment variables persist across the image build and are available at runtime, making them useful for runtime configuration. They can be defined in the Dockerfile or passed during docker run. Any environment variable declared with ENV remains in the final image and container.
+- **ENV variables**: **These environment variables persist across the image build and are available at runtime, making them useful for runtime configuration.** They can be defined in the Dockerfile or passed during docker run. Any environment variable declared with ENV remains in the final image and container.
 
-- **Docker Compose environment variables**: Environment variables in Docker Compose can be defined either in the docker-compose.yml file under the environment section or through an external .env file. This is a common approach when working with multi-container applications.
+- **Docker Compose environment variables**: Environment variables in Docker Compose **can be defined either in the docker-compose.yml file under the environment section or through an external .env file**. This is a common approach when working with multi-container applications.
 
 - **Image-specific variables**: Some Docker images come with predefined environment variables specific to their functionality. The Docker image creators define and maintain these variables, often documenting them in the image’s official repository or documentation.
 
@@ -67,7 +67,7 @@ $ docker run -it \
   alpine:latest sh
 ~~~
 
-The command above starts a new container running the alpine:latest image and sets the LOG_SERVER and USE_UNENCRYPTED_STORAGE environment variables. The -it flag enables interactive mode and attaches your terminal to the container, letting you run commands within it to check the variables have been set:
+The command above starts a new container running the alpine:latest image and sets the **LOG_SERVER** and **USE_UNENCRYPTED_STORAGE** environment variables. The -it flag enables interactive mode and attaches your terminal to the container, letting you run commands within it to check the variables have been set:
 
 ~~~
 $ echo $LOG_SERVER
@@ -104,7 +104,7 @@ To use a .env file with docker run, you must specify the file’s path by settin
 $ docker run --env-file /path/to/env/file alpine:latest
 ~~~
 
-Docker will read the environment variable key-value pairs from the file and set them inside the container.
+**Docker will read the environment variable key-value pairs from the file and set them inside the container.**
 
 You can repeat the flag to load variables from multiple .env files. It’s also possible to add the -e/--env file to set additional variables not included in your .env file.
 
