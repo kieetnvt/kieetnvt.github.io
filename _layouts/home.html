@@ -4,7 +4,21 @@ layout: page
 
 {{ content }}
 
-{% assign posts = paginator.posts | default: site.posts %}
+{% assign all_posts = paginator.posts | default: site.posts %}
+
+<!-- Filter posts by language: show only English posts on main site, Vietnamese on /vi/ -->
+{% assign posts = "" | split: "" %}
+{% for post in all_posts %}
+  {% if page.lang == "vi" %}
+    {% if post.lang == "vi" %}
+      {% assign posts = posts | push: post %}
+    {% endif %}
+  {% else %}
+    {% if post.lang == "en" or post.lang == nil or post.lang == "" %}
+      {% assign posts = posts | push: post %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list">

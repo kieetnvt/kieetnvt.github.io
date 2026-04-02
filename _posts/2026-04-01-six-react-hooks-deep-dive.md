@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "A practical, beginner-friendly deep-dive into the react hooks"
-subtitle: ""
-cover-img: /assets/img/react-hooks-udemy.jpg
+title: "Six Hooks That Will Change How You Write React"
+subtitle: "A practical, beginner-friendly deep-dive into the hooks you'll use every single day — with real analogies, clean code, and zero fluff"
+cover-img: /assets/img/six-react-hooks-deep-dive.png
 thumbnail-img: /assets/img/six-react-hooks-deep-dive.png
-share-img: /assets/img/react-hooks-udemy.jpg
+share-img: /assets/img/six-react-hooks-deep-dive.png
 tags: [react, hooks, javascript, frontend, web-development]
 author: kieetnvt
+lang: en
+ref: six-react-hooks-deep-dive
 ---
 
 Remember the days before React Hooks arrived in 2019? Managing state and side effects meant writing class components with verbose lifecycle methods and wrestling with `this` bindings. Then Hooks came along and changed everything! Suddenly, we could plug stateful logic directly into function components — cleanly, composably, and without all that `this` confusion.

@@ -25,6 +25,15 @@ navbar-links:
   Resources:
     - Learn Markdown: "https://www.markdownguide.org/basic-syntax/"
     - Awesome Ruby: "https://awesome-ruby.com/"
+  Language:
+    - English: "/"
+    - Tiếng Việt: "/vi/"
+
+# Multilingual settings
+languages: ["en", "vi"]
+default_lang: "en"
+exclude_from_localization: ["assets", "feed.xml"]
+parallel_localization: true
 
 ################
 # --- Logo --- #
@@ -264,6 +273,12 @@ highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 10
 
+# Vietnamese posts permalink
+collections:
+  posts:
+    output: true
+    permalink: /:year-:month-:day-:title/
+
 kramdown:
   input: GFM
 
@@ -277,11 +292,28 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      lang: "en"  # default language
+  -
+    scope:
+      path: "vi/_posts"
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      social-share: true
+      lang: "vi"  # Vietnamese language
+      permalink: /vi/:year-:month-:day-:title/
+  -
+    scope:
+      path: "vi"
+    values:
+      lang: "vi"
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
+      lang: "en"
 
 # Exclude these files from production site
 exclude:
@@ -293,6 +325,9 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - create_vietnamese_posts.rb
+  - MULTILINGUAL_README.md
+  - Appraisals
 
 plugins:
   - jekyll-paginate

@@ -1,0 +1,50 @@
+{% if page.ref %}
+  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  <div class="lang-switcher">
+    <div class="language-selector">
+      {% for post in posts %}
+        {% if post.lang == page.lang %}
+          <span class="current">
+            {% if post.lang == "vi" %}🇻🇳 VI{% else %}🇬🇧 EN{% endif %}
+          </span>
+        {% else %}
+          <a href="{{ post.url | relative_url }}" title="{% if post.lang == 'vi' %}Tiếng Việt{% else %}English{% endif %}">
+            {% if post.lang == "vi" %}🇻🇳 VI{% else %}🇬🇧 EN{% endif %}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+<style>
+.lang-switcher {
+  margin: 10px 0;
+  text-align: right;
+}
+
+.language-selector {
+  display: inline-flex;
+  gap: 10px;
+  padding: 5px 10px;
+  background: #f5f5f5;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.language-selector a {
+  text-decoration: none;
+  color: #008AFF;
+  transition: all 0.2s;
+}
+
+.language-selector a:hover {
+  color: #0085A1;
+  transform: scale(1.1);
+}
+
+.language-selector .current {
+  font-weight: bold;
+  color: #404040;
+}
+</style>
