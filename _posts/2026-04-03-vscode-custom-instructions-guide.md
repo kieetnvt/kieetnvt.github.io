@@ -139,7 +139,6 @@ Always follow this order:
 5. Custom hooks
 
 ## Example
-```tsx
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui';
 import { useAuth } from '@/hooks/useAuth';
@@ -163,7 +162,6 @@ export function UserCard({ userId, onUpdate }: UserCardProps) {
     </div>
   );
 }
-```
 ```
 
 **2. Create `.github/instructions/testing.instructions.md`:**
@@ -212,7 +210,6 @@ describe('LoginForm', () => {
     });
   });
 });
-```
 ```
 
 ### Method 3: Use AI to Generate Instructions

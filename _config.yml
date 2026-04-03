@@ -20,14 +20,21 @@ author: kieetnvt
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Author's Gist: "https://gist.github.com/kieetnvt"
-  Resources:
-    - Learn Markdown: "https://www.markdownguide.org/basic-syntax/"
-    - Awesome Ruby: "https://awesome-ruby.com/"
+  About: "aboutme"
+  Gist: "https://gist.github.com/kieetnvt"
+  AI & Copilot:
+    - 🎯 VSCode Agent Skills Guide: "2026-04-03-vscode-agent-skills-guide"
+    - 📋 Custom Instructions Guide: "2026-04-03-vscode-custom-instructions-guide"
+    - 🚀 How to Use Awesome Copilot: "2026-04-03-how-to-use-awesome-copilot"
+    - Awesome Copilot (Official): "https://awesome-copilot.github.com/"
+    - Agent Skills Spec: "https://agentskills.io/"
+  Dev Resources:
+    - 📝 Markdown Syntax: "https://www.markdownguide.org/basic-syntax/"
+    - 💎 Awesome Ruby: "https://awesome-ruby.com/"
+    - 📈 GitHub Trending: "https://github.com/trending"
   Language:
-    - English: "/"
-    - Tiếng Việt: "/vi/"
+    - 🇬🇧 English: "/"
+    - 🇻🇳 Tiếng Việt: "/vi/"
 
 # Multilingual settings
 languages: ["en", "vi"]

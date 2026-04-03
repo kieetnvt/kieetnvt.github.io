@@ -53,7 +53,7 @@ File này áp dụng cho toàn bộ dự án:
 
 **1. Tạo file `.github/copilot-instructions.md`:**
 
-```bash
+```
 mkdir -p .github
 touch .github/copilot-instructions.md
 ```
@@ -139,7 +139,6 @@ Always follow this order:
 5. Custom hooks
 
 ## Example
-```tsx
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui';
 import { useAuth } from '@/hooks/useAuth';
@@ -163,7 +162,6 @@ export function UserCard({ userId, onUpdate }: UserCardProps) {
     </div>
   );
 }
-```
 ```
 
 **2. Tạo file `.github/instructions/testing.instructions.md`:**
@@ -189,7 +187,6 @@ applyTo: '**/*.test.{ts,tsx}'
 - Use `userEvent` over `fireEvent`
 
 ## Example
-```typescript
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { LoginForm } from './LoginForm';
@@ -212,7 +209,6 @@ describe('LoginForm', () => {
     });
   });
 });
-```
 ```
 
 ### Cách 3: Dùng AI Để Tạo Instructions
