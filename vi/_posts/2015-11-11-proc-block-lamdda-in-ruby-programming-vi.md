@@ -13,8 +13,6 @@ lang: vi
 ref: proc-block-lamdda-in-ruby-programming
 ---
 
-> **📝 Lưu ý**: Đây là phiên bản tiếng Việt. Vui lòng dịch nội dung bên dưới.
-
 ![Proc, Block and Lambda in Ruby programming](/assets/img/ruby.jpg){: .mx-auto.d-block :}
 
 Hôm nay, tôi xin cùng các bạn bàn về Tính Callable và Runable của Objects trong Ruby. Theo tôi được biết thì trong Ruby bạn có thể gọi, thực thi hoặc là chạy: Threads, Anonymous functions, Stríng, thậm chí là methods đã được chuyển thành objects (gọi bằng objects).

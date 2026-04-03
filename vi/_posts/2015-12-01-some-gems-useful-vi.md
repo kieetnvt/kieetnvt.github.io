@@ -13,8 +13,6 @@ lang: vi
 ref: some-gems-useful
 ---
 
-> **📝 Lưu ý**: Đây là phiên bản tiếng Việt. Vui lòng dịch nội dung bên dưới.
-
 ![gems collection](/images/gems-collection.jpg)
 
 > Dưới đây là một số ```Gem``` mà tôi thường sử dụng trong ```Ruby On Rails```, đối với tôi thì những ```Gem``` này khá hay, tiện lợi, dễ dùng và giúp cho việc phát triển Web dễ dàng hơn rất nhiều. Có thể tôi sẽ bỏ qua 1 số thông thường về database.

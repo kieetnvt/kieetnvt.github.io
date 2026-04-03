@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'React Hooks Cheat Sheet: Best Practices and Common Solutions'
-subtitle: A comprehensive guide to React Hooks with practical examples
+title: 'React Hooks Cheat Sheet: Best Practices và Giải Pháp Phổ Biến'
+subtitle: Hướng dẫn toàn diện về React Hooks với các ví dụ thực tế
 cover-img: "/assets/img/react-hooks-cheat-sheet-solutions-common-problems.png"
 thumbnail-img: "/assets/img/react-hooks-cheat-sheet-solutions-common-problems.png"
 share-img: "/assets/img/react-hooks-cheat-sheet-solutions-common-problems.png"
@@ -15,22 +15,20 @@ lang: vi
 ref: react-hooks-cheat-sheet
 ---
 
-> **📝 Lưu ý**: Đây là phiên bản tiếng Việt. Vui lòng dịch nội dung bên dưới.
-
-React Hooks revolutionized state management and side effects in React's functional components. This comprehensive guide will walk you through the most commonly used Hooks, best practices, and solutions to common problems.
+React Hooks đã cách mạng hóa việc quản lý state và side effects trong các functional components của React. Hướng dẫn toàn diện này sẽ giúp bạn hiểu rõ các Hooks được sử dụng phổ biến nhất, best practices, và giải pháp cho các vấn đề thường gặp.
 
 ### useState Hook
 
-The most basic Hook for managing state in functional components.
+Hook cơ bản nhất để quản lý state trong functional components.
 
-**Basic Usage:**
+**Cách sử dụng cơ bản:**
 ```javascript
 const [state, setState] = useState(initialValue);
 ```
 
 **Best Practices:**
 
-+ **Multiple State Variables:**
++ **Nhiều biến State:**
 
 ```javascript
 const [age, setAge] = useState(25);
@@ -38,7 +36,7 @@ const [name, setName] = useState('John');
 const [isOnline, setIsOnline] = useState(false);
 ```
 
-+ **Object State:**
++ **State dạng Object:**
 
 ```javascript
 const [user, setUser] = useState({
@@ -46,7 +44,7 @@ const [user, setUser] = useState({
   age: 25,
   isOnline: false
 });
-// Update object state
+// Cập nhật object state
 setUser(prev => ({
   ...prev,
   age: prev.age + 1
@@ -63,44 +61,44 @@ const [token] = useState(() => {
 
 ### useEffect Hook
 
-For handling side effects in functional components.
+Để xử lý các side effects trong functional components.
 
-**Common Patterns:**
+**Các Pattern Phổ Biến:**
 
-+ **Run on Every Render:**
++ **Chạy sau mỗi lần Render:**
 
 ```javascript
 useEffect(() => {
-  // This runs after every render
+  // Chạy sau mỗi lần render
   document.title = `Count: ${count}`;
 });
 ```
 
-+ **Run Only Once (On Mount):**
++ **Chỉ chạy một lần (Khi Mount):**
 
 ```javascript
 useEffect(() => {
-  // This runs only on mount
+  // Chỉ chạy khi mount
   fetchData();
 }, []);
 ```
 
-+ **Run on Specific Dependencies:**
++ **Chạy khi Dependencies cụ thể thay đổi:**
 
 ```javascript
 useEffect(() => {
-  // This runs when count changes
+  // Chạy khi count thay đổi
   console.log('Count changed:', count);
 }, [count]);
 ```
 
-+ **Cleanup on Unmount:**
++ **Cleanup khi Unmount:**
 
 ```javascript
 useEffect(() => {
   const subscription = api.subscribe();
 
-  // Cleanup function
+  // Hàm cleanup
   return () => {
     subscription.unsubscribe();
   };
@@ -109,12 +107,12 @@ useEffect(() => {
 
 ### useContext Hook
 
-For consuming React context in components.
+Để sử dụng React context trong components.
 
-**Example Setup:**
+**Ví dụ Setup:**
 
 ```javascript
-// Create context
+// Tạo context
 const ThemeContext = createContext('light');
 
 // Provider component
@@ -141,9 +139,9 @@ const ThemedButton = () => {
 
 ### useReducer Hook
 
-For complex state management with actions and reducers.
+Để quản lý state phức tạp với actions và reducers.
 
-**Basic Implementation:**
+**Cài đặt cơ bản:**
 ```javascript
 const initialState = { count: 0 };
 
@@ -173,9 +171,9 @@ function Counter() {
 
 ### useCallback Hook
 
-For memoizing functions to prevent unnecessary re-renders.
+Để memoize các function nhằm tránh re-render không cần thiết.
 
-**Best Practice Example:**
+**Ví dụ Best Practice:**
 ```javascript
 const MemoizedComponent = React.memo(({ onSubmit }) => {
   return <button onClick={onSubmit}>Submit</button>;
@@ -186,7 +184,7 @@ const Parent = () => {
 
   const handleSubmit = useCallback(() => {
     console.log('Form submitted');
-  }, []); // Empty deps array since function doesn't depend on any values
+  }, []); // Mảng deps rỗng vì function không phụ thuộc vào giá trị nào
 
   return (
     <div>
@@ -199,12 +197,12 @@ const Parent = () => {
 
 ### useMemo Hook
 
-For memoizing computed values.
+Để memoize các giá trị được tính toán.
 
-**When to Use:**
-1. Expensive calculations
-2. Reference equality for objects
-3. Preventing unnecessary re-renders
+**Khi nào nên sử dụng:**
+1. Các phép tính phức tạp tốn kém
+2. Kiểm tra tham chiếu bằng nhau cho objects
+3. Ngăn chặn re-render không cần thiết
 
 ```javascript
 const ExpensiveComponent = ({ items, query }) => {
@@ -212,7 +210,7 @@ const ExpensiveComponent = ({ items, query }) => {
     return items.filter(item =>
       item.name.toLowerCase().includes(query.toLowerCase())
     );
-  }, [items, query]); // Only recompute when items or query changes
+  }, [items, query]); // Chỉ tính toán lại khi items hoặc query thay đổi
 
   return (
     <ul>
@@ -226,11 +224,11 @@ const ExpensiveComponent = ({ items, query }) => {
 
 ### useRef Hook
 
-For persisting values between renders and accessing DOM elements.
+Để duy trì giá trị giữa các lần render và truy cập các phần tử DOM.
 
-**Common Use Cases:**
+**Các trường hợp sử dụng phổ biến:**
 
-+ **DOM References:**
++ **Tham chiếu DOM:**
 
 ```javascript
 function TextInputWithFocus() {
@@ -249,7 +247,7 @@ function TextInputWithFocus() {
 }
 ```
 
-+ **Previous Value Storage:**
++ **Lưu trữ giá trị trước đó:**
 
 ```javascript
 function Counter() {
@@ -262,16 +260,16 @@ function Counter() {
 
   return (
     <div>
-      Current: {count}, Previous: {prevCountRef.current}
+      Hiện tại: {count}, Trước đó: {prevCountRef.current}
       <button onClick={() => setCount(c => c + 1)}>Increment</button>
     </div>
   );
 }
 ```
 
-### Latest React Hooks (React 18+)
+### Các React Hooks Mới Nhất (React 18+)
 
-React 18 introduced several new hooks that provide additional functionality:
+React 18 đã giới thiệu một số hooks mới cung cấp thêm chức năng:
 
 + **useTransition:**
 
@@ -303,7 +301,7 @@ function SearchResults({ query }) {
 
   return (
     <ul>
-      {/* Use deferredQuery for expensive search operation */}
+      {/* Sử dụng deferredQuery cho các thao tác tìm kiếm phức tạp */}
       {getSearchResults(deferredQuery).map(item => (
         <li key={item.id}>{item.name}</li>
       ))}
@@ -312,46 +310,46 @@ function SearchResults({ query }) {
 }
 ```
 
-### Best Practices Summary
+### Tóm Tắt Best Practices
 
-1. **Dependencies Array:**
-   - Always include all variables used inside useEffect/useCallback/useMemo in their dependencies array
-   - Use ESLint's exhaustive-deps rule to catch missing dependencies
+1. **Mảng Dependencies:**
+   - Luôn bao gồm tất cả các biến được sử dụng trong useEffect/useCallback/useMemo vào mảng dependencies
+   - Sử dụng quy tắc exhaustive-deps của ESLint để phát hiện dependencies bị thiếu
 
-2. **State Updates:**
-   - Use functional updates when new state depends on previous state
-   - Keep state minimal and derive data when possible
+2. **Cập nhật State:**
+   - Sử dụng functional updates khi state mới phụ thuộc vào state trước đó
+   - Giữ state tối thiểu và tính toán dữ liệu khi có thể
 
-3. **Performance Optimization:**
-   - Don't optimize prematurely
-   - Use React DevTools Profiler to identify performance issues
-   - Memoize only when necessary
+3. **Tối ưu hiệu suất:**
+   - Đừng tối ưu hóa quá sớm
+   - Sử dụng React DevTools Profiler để xác định các vấn đề về hiệu suất
+   - Chỉ memoize khi cần thiết
 
 4. **Custom Hooks:**
-   - Extract reusable logic into custom hooks
-   - Follow the "use" naming convention
-   - Keep custom hooks focused on a single responsibility
+   - Tách logic có thể tái sử dụng thành custom hooks
+   - Tuân theo quy ước đặt tên "use"
+   - Giữ custom hooks tập trung vào một trách nhiệm duy nhất
 
-### Common Pitfalls to Avoid
+### Các Lỗi Phổ Biến Cần Tránh
 
 1. **useState:**
-   - Don't call Hooks inside loops or conditions
-   - Don't mutate state directly
-   - Use functional updates for state that depends on previous state
+   - Không gọi Hooks bên trong vòng lặp hoặc điều kiện
+   - Không thay đổi state trực tiếp
+   - Sử dụng functional updates cho state phụ thuộc vào state trước đó
 
 2. **useEffect:**
-   - Don't ignore the cleanup function
-   - Don't forget dependencies array
-   - Don't use objects or arrays as dependencies without proper memoization
+   - Không bỏ qua cleanup function
+   - Không quên mảng dependencies
+   - Không sử dụng objects hoặc arrays làm dependencies mà không có memoization phù hợp
 
 3. **useCallback/useMemo:**
-   - Don't overuse them
-   - Don't forget dependencies array
-   - Don't memoize everything by default
+   - Không lạm dụng chúng
+   - Không quên mảng dependencies
+   - Không memoize mọi thứ theo mặc định
 
-Remember that Hooks are powerful tools, but they should be used judiciously. Always consider whether a Hook is necessary for your use case, and make sure to follow React's rules of Hooks to ensure your components behave correctly.
+Hãy nhớ rằng Hooks là công cụ mạnh mẽ, nhưng chúng nên được sử dụng một cách khôn ngoan. Luôn cân nhắc xem Hook có cần thiết cho trường hợp sử dụng của bạn hay không, và đảm bảo tuân theo các quy tắc của React về Hooks để components hoạt động đúng cách.
 
-For more information, refer to:
-- [React Hooks Documentation](https://react.dev/reference/react)
-- [Rules of Hooks](https://react.dev/warnings/invalid-hook-call-warning)
+Để biết thêm thông tin, tham khảo:
+- [Tài liệu React Hooks](https://react.dev/reference/react)
+- [Quy tắc của Hooks](https://react.dev/warnings/invalid-hook-call-warning)
 - [React Hooks Cheatsheet](https://blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems/)

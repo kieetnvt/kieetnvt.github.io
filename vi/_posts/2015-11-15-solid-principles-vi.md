@@ -13,8 +13,6 @@ lang: vi
 ref: solid-principles
 ---
 
-> **📝 Lưu ý**: Đây là phiên bản tiếng Việt. Vui lòng dịch nội dung bên dưới.
-
 ![SOLID fundamental principles](/assets/img/solid.png)
 
 SOLID là một thuật ngữ gồm 5 nguyên tắc căn bản về việc maintain code của chúng ta trong bất kỳ ngôn ngữ hay phương pháp lập trình nào.

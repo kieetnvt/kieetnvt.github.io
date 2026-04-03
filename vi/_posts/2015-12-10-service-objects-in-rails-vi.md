@@ -13,8 +13,6 @@ lang: vi
 ref: service-objects-in-rails
 ---
 
-> **📝 Lưu ý**: Đây là phiên bản tiếng Việt. Vui lòng dịch nội dung bên dưới.
-
 Nếu bạn đã biết về Rails Framework thì hản bạn đã biết về cấu trúc MVC của nó, với các directories đã được định nghĩa sẵn như Controller, Model và View. Đối với ứng dụng nhỏ, cấu trúc trên đã đủ tốt. Nhưng mà khi ứng dụng phát triển lên, khách hàng yêu cầu ngày càng nhiều tính năng thì có đôi lúc người lập trình viên không biết nên viết đoạn code ở đâu là hợp lý, là dễ dàng cho tìm kiếm và maintain chúng.
 
 Ví dụ ở đây, tôi nói đến những bussiness logic. Đơn thuần những logic này ta không biết đặt đâu để có thể dễ dàng thay đổi khi yêu cầu thay đổi.
