@@ -2,9 +2,9 @@
 layout: post
 title: Getting Started with VSCode Agent Skills
 subtitle: Simple guide to customize GitHub Copilot with Agent Skills
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/vscode-copilot.png
-share-img: /assets/img/path.jpg
+cover-img: /assets/img/vscode.png
+thumbnail-img: /assets/img/vscode.png
+share-img: /assets/img/vscode.png
 tags: [vscode, copilot, ai, productivity]
 author: kieetnvt
 ---

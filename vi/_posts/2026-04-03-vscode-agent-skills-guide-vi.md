@@ -2,9 +2,9 @@
 layout: post
 title: Hướng Dẫn Sử Dụng VSCode Agent Skills
 subtitle: Hướng dẫn đơn giản để tùy chỉnh GitHub Copilot với Agent Skills
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/vscode-copilot.png
-share-img: /assets/img/path.jpg
+cover-img: /assets/img/vscode.png
+thumbnail-img: /assets/img/vscode.png
+share-img: /assets/img/vscode.png
 tags: [vscode, copilot, ai, productivity, vietnamese]
 author: kieetnvt
 ---
