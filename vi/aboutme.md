@@ -25,4 +25,3 @@ Bạn có thể liên hệ với tôi qua:
 
 ---
 
-*"Công nghệ tốt nhất khi nó kết nối mọi người lại với nhau."*
