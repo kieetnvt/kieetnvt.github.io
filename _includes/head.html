@@ -63,6 +63,7 @@
   {% include google_analytics.html %}
   {% include cloudflare_analytics.html %}
   {% include mathjax.html %}
+  {% include google_adsense.html %}
 
   {% if layout.common-ext-css %}
     {% for css in layout.common-ext-css %}
@@ -87,7 +88,7 @@
       {% include ext-css.html css=css %}
     {% endfor %}
   {% endif %}
-  
+
   {% if page.css %}
     {% for css in page.css %}
       <link rel="stylesheet" href="{{ css | relative_url }}">
