@@ -2,9 +2,9 @@
 layout: post
 title: 10 Node.js Tools I Use in Production
 subtitle: Tooling choices that matter once Node.js services handle real traffic
-cover-img: /assets/img/nodejs.jpeg
-thumbnail-img: /assets/img/nodejs.jpeg
-share-img: /assets/img/nodejs.jpeg
+cover-img: /assets/img/nodejs_bg.png
+thumbnail-img: /assets/img/nodejs_bg.png
+share-img: /assets/img/nodejs_bg.png
 tags: [nodejs, backend, javascript, production, tooling]
 author: kieetnvt
 ---

@@ -2,9 +2,9 @@
 layout: post
 title: "12 Node.js Libraries That Feel Like Cheat Codes"
 subtitle: "Practical tools that make common backend work feel lighter"
-cover-img: /assets/img/nodejs.jpeg
-thumbnail-img: /assets/img/nodejs.jpeg
-share-img: /assets/img/nodejs.jpeg
+cover-img: /assets/img/nodejs_bg.png
+thumbnail-img: /assets/img/nodejs_bg.png
+share-img: /assets/img/nodejs_bg.png
 tags: [nodejs, npm, backend, tools]
 author: kieetnvt
 ---

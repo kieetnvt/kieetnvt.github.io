@@ -2,9 +2,9 @@
 layout: post
 title: 10 Công Cụ Node.js Tôi Dùng Trong Production
 subtitle: Những lựa chọn tooling bắt đầu quan trọng khi service Node.js có traffic thật
-cover-img: /assets/img/nodejs.jpeg
-thumbnail-img: /assets/img/nodejs.jpeg
-share-img: /assets/img/nodejs.jpeg
+cover-img: /assets/img/nodejs_bg.png
+thumbnail-img: /assets/img/nodejs_bg.png
+share-img: /assets/img/nodejs_bg.png
 tags: [nodejs, backend, javascript, production, tooling, vietnamese]
 author: kieetnvt
 lang: vi

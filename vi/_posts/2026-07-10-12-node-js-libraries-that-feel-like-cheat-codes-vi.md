@@ -2,9 +2,9 @@
 layout: post
 title: "12 Thu Vien Node.js Giong Nhu Cheat Code"
 subtitle: "Nhung cong cu thuc te giup cong viec backend nhe hon"
-cover-img: /assets/img/nodejs.jpeg
-thumbnail-img: /assets/img/nodejs.jpeg
-share-img: /assets/img/nodejs.jpeg
+cover-img: /assets/img/nodejs_bg.png
+thumbnail-img: /assets/img/nodejs_bg.png
+share-img: /assets/img/nodejs_bg.png
 tags: [nodejs, npm, backend, tools, vietnamese]
 author: kieetnvt
 lang: vi
